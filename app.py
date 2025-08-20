@@ -4,7 +4,7 @@ from typing import List, Tuple
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="IWK Datentransformation", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Datentransformation", page_icon="📊", layout="wide")
 
 # ---------- Helpers ----------
 def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -175,7 +175,7 @@ def transform_weiterbildungen(df_src: pd.DataFrame) -> pd.DataFrame:
 
 
 # ---------- UI ----------
-st.title("IWK Datentransformation")
+st.title("Datentransformation")
 
 with st.sidebar:
     st.header("Modus")
